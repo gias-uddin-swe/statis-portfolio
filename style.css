@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(26, 26, 26) !important;
+    background-blend-mode: overlay;
+    color: white;
+}
+.item{
+    list-style: none;
+    /* padding-right: 2px; */
+    margin-right: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item:hover{
+    color: rgb(45, 45, 178);
+    cursor: pointer;
+}
+.my-photo-box{
+    width: 300px;
+    height: 430px;
+    border-top: 2px solid gray;
+    border-right: 2px solid gray;
+    border-bottom: 2px solid gray;
+}
+.name-title{
+    font-size: 65px;
+    font-weight: bolder;
+    color: cyan;
+}
+.social-icons{
+    /* text-align: center; */
+    padding: 5px;
+    font-size: 32px;
+    /* margin-right: 80px; */
+    color: rgb(10, 10, 10);
+}
+.fa-brands{
+    color: cyan;
+}
+.title{
+    font-size: 45px;
+    font-weight: bolder;
+}
+.project-1{
+    width: 75%;
+border: 1px solid gray;
+}
+.project-title{
+    color: cyan;
+    font-weight: bold;
+    text-align: justify;
+}
+.project-desc{
+    text-align: justify;
+}
+.tech-btn{
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    border: none;
+    outline: none;
+   
+}
+.edu-title{
+    font-size: 45px;
+    font-weight: bold;
+    color: cyan;
+    padding: 5px;
+}
+.contact-form{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid gray;
+    box-shadow: 4px 4px 8px gray;
+    color: #fff;
+}
+.input-item{
+    padding: 14px;
+    margin: 10px;
+   background: none;
+    outline: none;
+    color: #fff;
+}
+.textarea{
+    padding: 34px;
+    margin: 10px;
+   background: none;
+    outline: none;
+}
+.submit-btn{
+    background-color: #6c757d;
+    width: 50%;
+    color: cyan;
+    font-weight: bold;
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.submit-btn:hover{
+    background-color: #0f66b3;
+}
